@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="下面的按钮英文默认为原始"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Liugezhou"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="下面的按钮英文设置为大写"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Liugezhou"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="下面的按钮设置了 onClick属性"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/tv_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:textColor="@color/black"
+        android:onClick="clickButton"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里查看点击按钮的结果"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+</LinearLayout>

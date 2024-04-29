@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#dddddd"
+    android:orientation="horizontal">
+    <!-- Option + Command + L 格式化代码 -->
+    <!--layout_weight 一份-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ffdd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#ffdd00"
+        android:gravity="right|bottom"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00ffdd" />
+    </LinearLayout>
+</LinearLayout>
