@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BareadStorage">
         <activity
-            android:name=".ButtonClickActivity"
+            android:name=".ButtonLongActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

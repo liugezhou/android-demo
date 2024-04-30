@@ -12,20 +12,6 @@
         android:textSize="18dp"
         android:text="这里查看点击按钮的结果"/>
     <Button
-        android:id="@+id/tv_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:text="click me" />
-    <Button
-        android:id="@+id/tv_button_public"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:text="click Me2" />
-    <Button
         android:id="@+id/tv_button_long"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
