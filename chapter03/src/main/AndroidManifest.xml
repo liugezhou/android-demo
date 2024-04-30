@@ -9,7 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BareadStorage">
         <activity
-            android:name=".ImageScaleActivity"
+            android:name=".ImageTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageButtonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
